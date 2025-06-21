@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+    background-color: rgb(11, 9, 36);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+  margin: 0px 0px 0px 20px;
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 90px;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.item_picture_left {
+  display: block;
+  margin: 160px auto 0px auto;
+  width: 80vw;
+  height: auto;
+  transform: rotate(-5deg);
+  box-shadow: 10px 10px 5px rgb(5, 5, 5);
+}
+
+.item_picture_right {
+  display: block;
+  margin: 160px auto 0px auto;
+  width: 80vw;
+  height: auto;
+  transform: rotate(5deg);
+  box-shadow: 10px 10px 5px rgb(5, 5, 5);
+}
+
+.item_text {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 3vw;
+  margin: 50px 0px 0px 0px;
+}
+
+.eoc {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 3vw;
+  margin: 180px 0px 40px 0px;
+}
